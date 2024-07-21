@@ -1,0 +1,553 @@
+<html>
+<head>
+<title>Tech Wizard</title>
+<style>
+#div2 {float:left; clear:none; margin-left:10px; margin-top:10px;  margin-right:10px; margin-bottom:10px;}
+#div3 {float:left; clear:left; margin-left:10px; margin-top:10px;  margin-right:10px; margin-bottom:10px;}
+#div3 p {float:left; margin-left:4px; margin-top:10px;  margin-right:4px; margin-bottom:10px;}
+h2, input {clear:both; margin-left:10px; margin-top:10px;  margin-right:10px; margin-bottom:10px;}
+#p17, #p18, #p19, #p20, #p21, #p22, #p23, #p24, #p25, #p26, #p27 {float:left; margin-left:10px; margin-top:10px;  margin-right:10px; margin-bottom:10px;}
+</style>
+<script>
+function a() {
+	var c = Math.floor((Math.random() * 500) + 1);
+  	document.getElementById('p1').innerHTML = c;
+}
+function b() {
+	var d = Math.floor((Math.random() * 500) + 1);
+	document.getElementById('p3').innerHTML = d;
+}
+function c() {
+	var w = Number(document.getElementById('p1').innerHTML);
+	var x = Number(document.getElementById('p3').innerHTML);
+	var v = w + x;
+	document.getElementById('p4').innerHTML = v;
+}
+
+function d() {
+var e = Math.floor((Math.random() * 500) + 1);
+	document.getElementById('p5').innerHTML = e;
+}
+function e() {
+var f = Math.floor((Math.random() * 500) + 1);
+	document.getElementById('p7').innerHTML = f;
+}
+function f() {
+	var w = Number(document.getElementById('p5').innerHTML);
+	var x = Number(document.getElementById('p7').innerHTML);
+	var v = w - x;
+	document.getElementById('p8').innerHTML = v;
+}
+
+function g() {
+	var g = Math.floor((Math.random() * 25) + 1);
+	document.getElementById('p9').innerHTML = g;
+}
+function h() {
+	var h = Math.floor((Math.random() * 25) + 1);
+	document.getElementById('p11').innerHTML = h;
+}
+function i() {
+	var w = Number(document.getElementById('p9').innerHTML);
+	var x = Number(document.getElementById('p11').innerHTML);
+	var v = w * x;
+	document.getElementById('p12').innerHTML = v;
+}
+
+function j() {
+	var i = Math.floor((Math.random() * 500) + 1);
+	document.getElementById('p13').innerHTML = i;
+}
+function k() {
+	var j = Math.floor((Math.random() * 25) + 1);
+	document.getElementById('p15').innerHTML = j;
+}
+function l() {
+	var w = Number(document.getElementById('p13').innerHTML);
+	var x = Number(document.getElementById('p15').innerHTML);
+	var v = w / x;
+	document.getElementById('p16').innerHTML = v;
+}
+function m() {
+   var k = Math.floor((Math.random() * 70) + 1);
+   var l = Math.floor((Math.random() * 70) + 1);
+   var m = Math.floor((Math.random() * 70) + 1);
+   var n = Math.floor((Math.random() * 70) + 1);
+   var o = Math.floor((Math.random() * 70) + 1);
+   var p = Math.floor((Math.random() * 70) + 1);
+   var q = Math.floor((Math.random() * 70) + 1);
+   var r = Math.floor((Math.random() * 70) + 1);
+   var s = Math.floor((Math.random() * 70) + 1);
+   var t = Math.floor((Math.random() * 70) + 1);
+ 
+   document.getElementById('p17').innerHTML = k;
+   document.getElementById('p18').innerHTML = l;
+   document.getElementById('p19').innerHTML = m;
+   document.getElementById('p20').innerHTML = n;
+   document.getElementById('p21').innerHTML = o;
+   document.getElementById('p23').innerHTML = p;
+   document.getElementById('p24').innerHTML = q;
+   document.getElementById('p25').innerHTML = r;
+   document.getElementById('p26').innerHTML = s;
+   document.getElementById('p27').innerHTML = t;
+
+}
+
+function n() {
+
+	var aa = document.getElementById('p17').innerHTML;
+	var ab = document.getElementById('p18').innerHTML;
+	var ac = document.getElementById('p19').innerHTML;
+	var ad = document.getElementById('p20').innerHTML;
+	var ae = document.getElementById('p21').innerHTML;
+	var af = document.getElementById('p23').innerHTML;
+	var ag = document.getElementById('p24').innerHTML;
+	var ah = document.getElementById('p25').innerHTML;
+	var ai = document.getElementById('p26').innerHTML;
+	var aj = document.getElementById('p27').innerHTML;
+
+	document.getElementById('p33').innerHTML = ae;
+	document.getElementById('p34').innerHTML = af;
+	document.getElementById('p35').innerHTML = ad;
+	document.getElementById('p36').innerHTML = ag;
+	document.getElementById('p37').innerHTML = ac;
+	document.getElementById('p38').innerHTML = ah;
+	document.getElementById('p39').innerHTML = ab;
+	document.getElementById('p40').innerHTML = ai;
+	document.getElementById('p41').innerHTML = aa;
+	document.getElementById('p42').innerHTML = aj;
+
+	if (Number(document.getElementById('p33').innerHTML) == Number(document.getElementById('p34').innerHTML)){
+		document.getElementById('p28').innerHTML = "TRUE";
+	} else {
+  		document.getElementById('p28').innerHTML = "FALSE";
+	}
+	if (Number(document.getElementById('p35').innerHTML) == Number(document.getElementById('p36').innerHTML)){
+		document.getElementById('p29').innerHTML = "TRUE";
+	} else {
+		document.getElementById('p29').innerHTML = "FALSE";
+	}
+	if (Number(document.getElementById('p37').innerHTML) == Number(document.getElementById('p38').innerHTML)){
+		document.getElementById('p30').innerHTML = "TRUE";
+	} else {
+		document.getElementById('p30').innerHTML = "FALSE";
+	}
+	if (Number(document.getElementById('p39').innerHTML) == Number(document.getElementById('p40').innerHTML)){
+		document.getElementById('p31').innerHTML = "TRUE";
+	} else {
+		document.getElementById('p31').innerHTML = "FALSE";
+	}
+	if (Number(document.getElementById('p41').innerHTML) == Number(document.getElementById('p42').innerHTML)){
+		document.getElementById('p32').innerHTML = "TRUE";
+	} else {
+		document.getElementById('p32').innerHTML = "FALSE";
+	}
+}
+function o() {
+	var ca = Math.floor((Math.random() * 20) + 1);
+	document.getElementById("p43").innerHTML = ca;
+}
+function p() {
+	var cb = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p44").innerHTML = cb;
+}
+function q() {
+	var cc = Math.floor((Math.random() * 20) + 1);
+	document.getElementById("p45").innerHTML = cc;
+}
+
+function r() {
+	var cg = Number(document.getElementById('p43').innerHTML); 
+  	var ch = Number(document.getElementById('p44').innerHTML);
+  	var ci = Number(document.getElementById('p45').innerHTML);
+  	var fxn1 = cg + ch;
+  	var fxn2 = fxn1 + ci;
+  	document.getElementById('p46').innerHTML = fxn2;
+}
+function s() {
+	var cd = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p47").innerHTML = cd;
+}
+function t() {
+	var ce = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p48").innerHTML = ce;
+}
+function u() {
+	var cf = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p49").innerHTML = cf;
+}
+function v() {
+	var cj = Number(document.getElementById('p47').innerHTML); 
+  	var ck = Number(document.getElementById('p48').innerHTML);
+  	var cl = Number(document.getElementById('p49').innerHTML);
+  	var fxn3 = cj + ck;
+  	var fxn4 = fxn3 - cl;
+  	document.getElementById('p50').innerHTML = fxn4;
+}
+function w() {
+	var cm = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p51").innerHTML = cm;
+}
+function x() {
+	var cn = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p52").innerHTML = cn;
+}
+function y() {
+	var co = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p53").innerHTML = co;
+}
+function z() {
+	var cp = Number(document.getElementById('p51').innerHTML); 
+  	var cq = Number(document.getElementById('p52').innerHTML);
+  	var cr = Number(document.getElementById('p53').innerHTML);
+  	var fxn5 = cp + cq;
+  	var fxn6 = fxn5 * cr;
+  	document.getElementById('p54').innerHTML = fxn6;
+}
+function aa() {
+	var cs = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p55").innerHTML = cs;
+}
+function ab() {
+	var ct = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p56").innerHTML = ct;
+}
+function ac() {
+	var cu = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p57").innerHTML = cu;
+}
+function ad() {
+	var cp = Number(document.getElementById('p55').innerHTML); 
+  	var cq = Number(document.getElementById('p56').innerHTML);
+  	var cr = Number(document.getElementById('p57').innerHTML);
+  	var fxn7 = cp + cq;
+  	var fxn8 = fxn7 / cr;
+  	document.getElementById('p58').innerHTML = fxn8;
+}
+function ae() {
+	var ca = Math.floor((Math.random() * 20) + 1);
+	document.getElementById("p59").innerHTML = ca;
+}
+function af() {
+	var cb = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p60").innerHTML = cb;
+}
+function ag() {
+	var cc = Math.floor((Math.random() * 20) + 1);
+	document.getElementById("p61").innerHTML = cc;
+}
+
+function ah() {
+	var cg = Number(document.getElementById('p59').innerHTML); 
+  	var ch = Number(document.getElementById('p60').innerHTML);
+  	var ci = Number(document.getElementById('p61').innerHTML);
+  	var fxn1 = cg - ch;
+  	var fxn2 = fxn1 + ci;
+  	document.getElementById('p62').innerHTML = fxn2;
+}
+function ai() {
+	var cd = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p63").innerHTML = cd;
+}
+function aj() {
+	var ce = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p64").innerHTML = ce;
+}
+function ak() {
+	var cf = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p65").innerHTML = cf;
+}
+function al() {
+	var cj = Number(document.getElementById('p63').innerHTML); 
+  	var ck = Number(document.getElementById('p64').innerHTML);
+  	var cl = Number(document.getElementById('p65').innerHTML);
+  	var fxn3 = cj - ck;
+  	var fxn4 = fxn3 - cl;
+  	document.getElementById('p66').innerHTML = fxn4;
+}
+function am() {
+	var cm = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p67").innerHTML = cm;
+}
+function an() {
+	var cn = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p68").innerHTML = cn;
+}
+function ao() {
+	var co = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p69").innerHTML = co;
+}
+function ap() {
+	var cp = Number(document.getElementById('p67').innerHTML); 
+  	var cq = Number(document.getElementById('p68').innerHTML);
+  	var cr = Number(document.getElementById('p69').innerHTML);
+  	var fxn5 = cp - cq;
+  	var fxn6 = fxn5 * cr;
+  	document.getElementById('p70').innerHTML = fxn6;
+}
+function aq() {
+	var cs = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p71").innerHTML = cs;
+}
+function ar() {
+	var ct = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p72").innerHTML = ct;
+}
+function as() {
+	var cu = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p73").innerHTML = cu;
+}
+function at() {
+	var cp = Number(document.getElementById('p71').innerHTML); 
+  	var cq = Number(document.getElementById('p72').innerHTML);
+  	var cr = Number(document.getElementById('p73').innerHTML);
+  	var fxn7 = cp - cq;
+  	var fxn8 = fxn7 / cr;
+  	document.getElementById('p74').innerHTML = fxn8;
+}
+function au() {
+	var ca = Math.floor((Math.random() * 20) + 1);
+	document.getElementById("p75").innerHTML = ca;
+}
+function av() {
+	var cb = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p76").innerHTML = cb;
+}
+function aw() {
+	var cc = Math.floor((Math.random() * 20) + 1);
+	document.getElementById("p77").innerHTML = cc;
+}
+
+function ax() {
+	var cg = Number(document.getElementById('p75').innerHTML); 
+  	var ch = Number(document.getElementById('p76').innerHTML);
+  	var ci = Number(document.getElementById('p77').innerHTML);
+  	var fxn1 = cg * ch;
+  	var fxn2 = fxn1 + ci;
+  	document.getElementById('p78').innerHTML = fxn2;
+}
+function ay() {
+	var cd = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p79").innerHTML = cd;
+}
+function az() {
+	var ce = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p80").innerHTML = ce;
+}
+function aaa() {
+	var cf = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p81").innerHTML = cf;
+}
+function aab() {
+	var cj = Number(document.getElementById('p79').innerHTML); 
+  	var ck = Number(document.getElementById('p80').innerHTML);
+  	var cl = Number(document.getElementById('p81').innerHTML);
+  	var fxn3 = cj * ck;
+  	var fxn4 = fxn3 - cl;
+  	document.getElementById('p82').innerHTML = fxn4;
+}
+function aac() {
+	var cm = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p83").innerHTML = cm;
+}
+function aad() {
+	var cn = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p84").innerHTML = cn;
+}
+function aae() {
+	var co = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p85").innerHTML = co;
+}
+function aaf() {
+	var cp = Number(document.getElementById('p83').innerHTML); 
+  	var cq = Number(document.getElementById('p84').innerHTML);
+  	var cr = Number(document.getElementById('p85').innerHTML);
+  	var fxn5 = cp * cq;
+  	var fxn6 = fxn5 * cr;
+  	document.getElementById('p86').innerHTML = fxn6;
+}
+function aag() {
+	var cs = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p87").innerHTML = cs;
+}
+function aah() {
+	var ct = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p88").innerHTML = ct;
+}
+function aai() {
+	var cu = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p89").innerHTML = cu;
+}
+function aaj() {
+	var cp = Number(document.getElementById('p87').innerHTML); 
+  	var cq = Number(document.getElementById('p88').innerHTML);
+  	var cr = Number(document.getElementById('p89').innerHTML);
+  	var fxn7 = cp * cq;
+  	var fxn8 = fxn7 / cr;
+  	document.getElementById('p90').innerHTML = fxn8;
+}
+
+function aak() {
+	var ca = Math.floor((Math.random() * 20) + 1);
+	document.getElementById("p91").innerHTML = ca;
+}
+function aal() {
+	var cb = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p92").innerHTML = cb;
+}
+function aam() {
+	var cc = Math.floor((Math.random() * 20) + 1);
+	document.getElementById("p93").innerHTML = cc;
+}
+
+function aan() {
+	var cg = Number(document.getElementById('p91').innerHTML); 
+  	var ch = Number(document.getElementById('p92').innerHTML);
+  	var ci = Number(document.getElementById('p93').innerHTML);
+  	var fxn1 = cg / ch;
+  	var fxn2 = fxn1 + ci;
+  	document.getElementById('p94').innerHTML = fxn2;
+}
+function aao() {
+	var cd = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p95").innerHTML = cd;
+}
+function aap() {
+	var ce = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p96").innerHTML = ce;
+}
+function aaq() {
+	var cf = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p97").innerHTML = cf;
+}
+function aar() {
+	var cj = Number(document.getElementById('p95').innerHTML); 
+  	var ck = Number(document.getElementById('p96').innerHTML);
+  	var cl = Number(document.getElementById('p97').innerHTML);
+  	var fxn3 = cj / ck;
+  	var fxn4 = fxn3 - cl;
+  	document.getElementById('p98').innerHTML = fxn4;
+}
+function aat() {
+	var cm = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p99").innerHTML = cm;
+}
+function aas() {
+	var cn = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p100").innerHTML = cn;
+}
+function aau() {
+	var co = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p101").innerHTML = co;
+}
+function aav() {
+	var cp = Number(document.getElementById('p99').innerHTML); 
+  	var cq = Number(document.getElementById('p100').innerHTML);
+  	var cr = Number(document.getElementById('p101').innerHTML);
+  	var fxn5 = cp / cq;
+  	var fxn6 = fxn5 * cr;
+  	document.getElementById('p102').innerHTML = fxn6;
+}
+function aaw() {
+	var cs = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p103").innerHTML = cs;
+}
+function aax() {
+	var ct = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p104").innerHTML = ct;
+}
+function aay() {
+	var cu = Math.floor((Math.random() * 20) + 1);
+  	document.getElementById("p105").innerHTML = cu;
+}
+function aaz() {
+	var cp = Number(document.getElementById('p103').innerHTML); 
+  	var cq = Number(document.getElementById('p104').innerHTML);
+  	var cr = Number(document.getElementById('p105').innerHTML);
+  	var fxn7 = cp / cq;
+  	var fxn8 = fxn7 / cr;
+  	document.getElementById('p106').innerHTML = fxn8;
+}
+
+</script>
+</head>
+<body onload="a(), b(), c(), d(), e(), f(), g(), h(), i(), j(), k(), l(), m(), n(), o(), p(), q(), r(), s(), t(), u(), v(), w(), x(), y(), z(), aa(), ab(), ac(), ad(), ae(), af(), ag(), ah(), ai(), aj(), ak(), al(), am(), an(), ao(), aq(), ap(), ar(), as(), at(), au(), av(), aw(), ax(), ay(), az(), aaa(), aab(), aac(), aad(), aae(), aaf(), aag(), aah(), aai(), aaj(), aak(), aal(), aam(), aan(), aao(), aaq(), aap(), aar(), aas(), aat(), aau(), aav(), aaw(), aax(), aay(), aaz()">
+<div id="div1">
+<h2>Adding Flash Cards between 1 and 500</h2>
+<input type="button" value=" ADD " onclick="a(), b()" />
+<p id="p1"></p>
+<p id="p2">+</p>
+<p id="p3"></p>
+<input type="button" value=" EQUALS " onclick="c()" />
+<p id="p4"></p>
+</div>
+<div id="div1">
+<h2>Subtracting Flash Cards between 1 and 500</h2>
+<input type="button" value=" SUBTRACT " onclick="d(), e()" />
+<p id="p5"></p>
+<p id="p6">-</p>
+<p id="p7"></p>
+<input type="button" value=" EQUALS " onclick="f()" />
+<p id="p8"></p>
+</div>
+<div id="div1">
+<h2>Multiplying Flash Cards between 1 and 25</h2>
+<input type="button" value=" MULTIPLY " onclick="g(), h()" />
+<p id="p9"></p>
+<p id="p10">*</p>
+<p id="p11"></p>
+<input type="button" value=" EQUALS " onclick="i()" />
+<p id="p12"></p>
+</div>
+<div id="div1">
+<h2>Dividing Flash Cards between 500 and 25</h2>
+<input type="button" value=" DIVIDE " onclick="j(), k()" />
+<p id="p13"></p>
+<p id="p14">/</p>
+<p id="p15"></p>
+<input type="button" value=" EQUALS " onclick="l()" />
+<p id="p16"></p>
+</div>
+<h2>Random Set Of Numbers between 1 and 70</h2>
+<h2>True or False on Number Line</h2><br>
+<input type="button" value=" RANDOM & TRUE or FALSE " onclick="m(), n()" /><br>
+<p id="p17"></p>
+<p id="p18"></p>
+<p id="p19"></p>
+<p id="p20"></p>
+<p id="p21"></p>
+<p id="p22">0</p>
+<p id="p23"></p>
+<p id="p24"></p>
+<p id="p25"></p>
+<p id="p26"></p>
+<p id="p27"></p><br><br>
+<div id="div2"><p>Is</p><p id="p33"></p><p>=</p><p id="p34"></p><p>?</p><p id="p28"></p></div>
+<div id="div2"><p>Is</p><p id="p35"></p><p>=</p><p id="p36"></p><p>?</p><p id="p29"></p></div>
+<div id="div2"><p>Is</p><p id="p37"></p><p>=</p><p id="p38"></p><p>?</p><p id="p30"></p></div>
+<div id="div2"><p>Is</p><p id="p39"></p><p>=</p><p id="p40"></p><p>?</p><p id="p31"></p></div>
+<div id="div2"><p>Is</p><p id="p41"></p><p>=</p><p id="p42"></p><p>?</p><p id="p32"></p></div><br><br>
+<h2>Algebra</h2>
+<input type="button" value="ALGEBRA, 20, 20, 20 " onclick="o(), p(), q(), r(), s(), t(), u(), v(), w(), x(), y(), z(), aa(), ab(), ac(), ad(), ae(), af(), ag(), ah(), ai(), aj(), ak(), al(), am(), an(), ao(), aq(), ap(), ar(), as(), at(), au(), av(), aw(), ax(), ay(), az(), aaa(), aab(), aac(), aad(), aae(), aaf(), aag(), aah(), aaj(), aai(), aak(), aal(), aam(), aan(), aao(), aaq(), aap(), aar(), aas(), aat(), aau(), aav(), aaw(), aax(), aay(), aaz()" /><br><br>
+<h2>Add Then Each Symbol</h2>
+<div id="div3"><p>(</p><p id="p43"></p><p>+</p><p id="p44"></p><p>)</p><p>+</p><p id="p45"></p><p>=</p><p id="p46"></p></div>
+<div id="div3"><p>(</p><p id="p47"></p><p>+</p><p id="p48"></p><p>)</p><p>-</p><p id="p49"></p><p>=</p><p id="p50"></p></div>
+<div id="div3"><p>(</p><p id="p51"></p><p>+</p><p id="p52"></p><p>)</p><p>*</p><p id="p53"></p><p>=</p><p id="p54"></p></div>
+<div id="div3"><p>(</p><p id="p55"></p><p>+</p><p id="p56"></p><p>)</p><p>/</p><p id="p57"></p><p>=</p><p id="p58"></p></div>
+<h2>Subtract Then Each Symbol</h2>
+<div id="div3"><p>(</p><p id="p59"></p><p>-</p><p id="p60"></p><p>)</p><p>+</p><p id="p61"></p><p>=</p><p id="p62"></p></div>
+<div id="div3"><p>(</p><p id="p63"></p><p>-</p><p id="p64"></p><p>)</p><p>-</p><p id="p65"></p><p>=</p><p id="p66"></p></div>
+<div id="div3"><p>(</p><p id="p67"></p><p>-</p><p id="p68"></p><p>)</p><p>*</p><p id="p69"></p><p>=</p><p id="p70"></p></div>
+<div id="div3"><p>(</p><p id="p71"></p><p>-</p><p id="p72"></p><p>)</p><p>/</p><p id="p73"></p><p>=</p><p id="p74"></p></div>
+<h2>Multiply Then Each Symbol</h2>
+<div id="div3"><p>(</p><p id="p75"></p><p>*</p><p id="p76"></p><p>)</p><p>+</p><p id="p77"></p><p>=</p><p id="p78"></p></div>
+<div id="div3"><p>(</p><p id="p79"></p><p>*</p><p id="p80"></p><p>)</p><p>-</p><p id="p81"></p><p>=</p><p id="p82"></p></div>
+<div id="div3"><p>(</p><p id="p83"></p><p>*</p><p id="p84"></p><p>)</p><p>*</p><p id="p85"></p><p>=</p><p id="p86"></p></div>
+<div id="div3"><p>(</p><p id="p87"></p><p>*</p><p id="p88"></p><p>)</p><p>/</p><p id="p89"></p><p>=</p><p id="p90"></p></div>
+<h2>Divide Then Each Symbol</h2>
+<div id="div3"><p>(</p><p id="p91"></p><p>/</p><p id="p92"></p><p>)</p><p>+</p><p id="p93"></p><p>=</p><p id="p94"></p></div>
+<div id="div3"><p>(</p><p id="p95"></p><p>/</p><p id="p96"></p><p>)</p><p>-</p><p id="p97"></p><p>=</p><p id="p98"></p></div>
+<div id="div3"><p>(</p><p id="p99"></p><p>/</p><p id="p100"></p><p>)</p><p>*</p><p id="p101"></p><p>=</p><p id="p102"></p></div>
+<div id="div3"><p>(</p><p id="p103"></p><p>/</p><p id="p104"></p><p>)</p><p>/</p><p id="p105"></p><p>=</p><p id="p106"></p></div>
+</body>
+</html>
